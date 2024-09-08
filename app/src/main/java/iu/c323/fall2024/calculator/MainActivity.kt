@@ -7,15 +7,17 @@ import android.widget.TextView
 import androidx.activity.enableEdgeToEdge
 import kotlin.math.min
 
-
+//Main activity class and creation of variables
 class MainActivity : AppCompatActivity() {
 
+    // Textview and operation variables
     private lateinit var displayTextView: TextView
     private var currentTextView = "0"
     private var operation: String? = null
     private var firstNumber: String? = null
     private var secondNumber: String? = null
 
+    //Buttons
     private lateinit var one: Button
     private lateinit var two: Button
     private lateinit var three: Button
@@ -183,7 +185,7 @@ class MainActivity : AppCompatActivity() {
 // Calculates operation
 
     private fun performOperation(num1: Double, num2: Double, op: String): String {
-        //Edge case
+        //Edge case for division by zero
         if(op=="/" && num2 == 0.0){
             return "Error"
         }
