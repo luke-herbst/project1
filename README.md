@@ -17,7 +17,8 @@ The following **required** functionality is completed:
 
 ## Video Walkthrough
 Here's a walkthrough of implemented user stories:
-[calculatorRecording](https://github.com/user-attachments/assets/ca8cb82d-42ee-4980-9500-f56a0731946f)
+![calculatorExample](https://github.com/user-attachments/assets/7ecf7249-eab7-4f15-970e-d7ef830fd510)
+
 
 
 ## Notes
