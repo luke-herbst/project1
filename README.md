@@ -18,7 +18,7 @@ The following **required** functionality is completed:
 ## Video Walkthrough
 Here's a walkthrough of implemented user stories:
 
-<img src="https://github.com/user-attachments/assets/7ecf7249-eab7-4f15-970e-d7ef830fd510" width="250" height="250"/>
+<img src="https://github.com/user-attachments/assets/7ecf7249-eab7-4f15-970e-d7ef830fd510" width="250"/>
 
 
 ## Notes
