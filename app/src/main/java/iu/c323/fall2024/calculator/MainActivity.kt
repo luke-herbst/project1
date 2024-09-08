@@ -102,7 +102,13 @@ class MainActivity : AppCompatActivity() {
         val button = view as Button
         val buttonText = button.text.toString()
 
-
+        //Edge case
+        if(currentTextView == "Error"){
+            currentTextView = "0"
+            firstNumber = null
+            secondNumber = null
+            operation = null
+        }
 
         if (button.id == R.id.c_button) {
             currentTextView = "0"
@@ -177,6 +183,10 @@ class MainActivity : AppCompatActivity() {
 // Calculates operation
 
     private fun performOperation(num1: Double, num2: Double, op: String): String {
+        //Edge case
+        if(op=="/" && num2 == 0.0){
+            return "Error"
+        }
         return when (op) {
             "+" -> (num1 + num2).toString()
             "-" -> (num1 - num2).toString()
