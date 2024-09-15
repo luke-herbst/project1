@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <string name="_0">0</string>
+    <string name="_1">1</string>
+    <string name="_2">2</string>
+    <string name="_3">3</string>
+    <string name="_5">5</string>
+    <string name="_6">6</string>
+    <string name="app_name">Calculator</string>
+    <string name="c_button">C</string>
+    <string name="cos">cos</string>
+    <string name="decimal">.</string>
+    <string name="division_button">/</string>
+    <string name="eight">8</string>
+    <string name="equal">=</string>
+    <string name="four">4</string>
+    <string name="input">0</string>
+    <string name="ln">ln</string>
+    <string name="log">Log10</string>
+    <string name="minus">-</string>
+    <string name="multiply">x</string>
+    <string name="negate_button">+/-</string>
+    <string name="nine">9</string>
+    <string name="percent_button">%</string>
+    <string name="plus">+</string>
+    <string name="seven">7</string>
+    <string name="sin">sin</string>
+    <string name="tan">tan</string>
+    <style name="Base.Theme.Calculator" parent="Theme.Material3.DayNight.NoActionBar">
+        
+        
+    </style>
+    <style name="Theme.Calculator" parent="Base.Theme.Calculator"/>
+</resources>
