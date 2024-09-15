@@ -15,6 +15,10 @@ The following **required** functionality is completed:
 * [x] User can convert the current number to a percentage using the "%" button.
 * [x] User sees the previous number and operation until a new number is entered.
 
+The following **extensions** are implemented:
+* [x] User can rotate phone for a different layout and added features.
+* [x] States are saved between orientation changes.
+
 ## Video Walkthrough
 Here's a walkthrough of implemented user stories:
 
