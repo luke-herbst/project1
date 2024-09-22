@@ -22,7 +22,7 @@ private const val TAG="MainActivity"
 class MainActivity : AppCompatActivity() {
 
     // Textview and operation variables
-    private lateinit var displayTextView: TextView
+    lateinit var displayTextView: TextView
     private var currentTextView = "0"
     private var operation: String? = null
     private var firstNumber: String? = null
@@ -259,7 +259,7 @@ class MainActivity : AppCompatActivity() {
 
 // Calculates operation
 
-    private fun performOperation(num1: Double, num2: Double, op: String): String {
+    internal fun performOperation(num1: Double, num2: Double, op: String): String {
         Log.d("CalculatorApp", "operation performed")
         //Edge case for division by zero
         if(op=="/" && num2 == 0.0){
